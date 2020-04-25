@@ -1,1 +1,13 @@
-a
+.side-bar {
+  &__content {
+    width: 300px;
+    height: 100vh;
+  }
+}
+
+.main {
+  &__content {
+    width: calc(100vw - 300px);
+    height: 100vh;
+  }
+}
